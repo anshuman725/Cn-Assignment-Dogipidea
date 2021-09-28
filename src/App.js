@@ -9,7 +9,7 @@ const Dog = (props) => {
 };
 
 const App = () => {
-  var arr = [1, 2, 3, 4];
+  var arr = [1, 2, 3, 4,5,6];
   return React.createElement("div", { id: "website-title" }, [
     React.createElement("h3", {}, "Dog Website"),
     ...[arr].map((item) => React.createElement("h3", {}, item)),
